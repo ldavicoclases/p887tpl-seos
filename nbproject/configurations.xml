@@ -12,6 +12,8 @@
       <itemPath>uart.h</itemPath>
       <itemPath>display.h</itemPath>
       <itemPath>tick.h</itemPath>
+      <itemPath>cooperativeOs_isr.h</itemPath>
+      <itemPath>cooperativeOs_scheduler.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -26,6 +28,8 @@
       <itemPath>uart.c</itemPath>
       <itemPath>display.c</itemPath>
       <itemPath>tick.c</itemPath>
+      <itemPath>cooperativeOs_isr.c</itemPath>
+      <itemPath>cooperativeOs_scheduler.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

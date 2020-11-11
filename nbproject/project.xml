@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>p887tpl-uart-display-tick</name>
+            <name>p887tpl-seos</name>
             <creation-uuid>e75fa891-313c-4df1-819d-a753b4b05162</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

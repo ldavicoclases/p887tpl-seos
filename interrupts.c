@@ -11,6 +11,7 @@
 /*==================[inlcusiones]============================================*/
 #include <xc.h>             /* Archivo de Encabezados General XC8 */
 #include "tick.h"           /* Funciones/Parametros Tick */
+#include "cooperativeOs_isr.h"
 
 /*==================[definiciones y macros]==================================*/
 
@@ -38,6 +39,7 @@ void __interrupt() isr(void) {
     TMR0IF = 0;       /* Baja Interrupt Flag */
     TMR0 += 7;        /* Ajusta desborde a 1 mSeg aprox */
     tickCounter++;    /* Incrementa el contador */
+    schedulerUpdate();
     //else if(TMR2IF) {
     //  TMR2IF=0; /* Baja Interrupt Flag 2 */
     //  ...

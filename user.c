@@ -55,7 +55,9 @@ void appInit(void) {
     TRIS_LED_AM = 0;
     TRIS_LED_V = 0;
     TRIS_LED_AZ = 0;
-    
+
+    TRIS_SOUNDER = 0;
+
     tickInit();
     uartInit();
     displaytInit();
